@@ -1,0 +1,567 @@
+/*-----------------------------------*\ 
+  #media_query.css
+\*-----------------------------------*/
+
+/**
+ * copyright 2022 @codewithsadee 
+ */
+
+
+
+
+
+/*-----------------------------------*\ 
+  #for large mobile
+\*-----------------------------------*/
+
+@media (min-width: 450px) {
+
+  /**
+   * CUSTOM PROPERTY 
+   */
+
+  :root {
+
+    /**
+     * typography 
+     */
+
+    --fs-1: 54px;
+    --fs-2: 36px;
+    --fs-3: 20px;
+
+  }
+
+
+
+  /**
+   * HOME 
+   */
+
+  .home-text {
+    max-width: 320px;
+    margin-inline: auto;
+  }
+
+  .home .btn-group {
+    flex-direction:  row;
+    justify-content: center;
+  }
+
+  .dialog-1 { top: 15%; }
+
+  .dialog-2 { right: 15%; }
+
+  .shape-1 {
+    top:  10%;
+    left: 15%;
+  }
+
+}
+
+
+
+
+
+/*-----------------------------------*\ 
+  #for tablat
+\*-----------------------------------*/
+
+@media (min-width: 570px) {
+
+  /**
+   * CUSTOM PROPERTY 
+   */
+
+  :root {
+
+    /**
+     * spacing 
+     */
+
+    --mw: 550px;
+
+  }
+
+
+
+  /**
+   * HEADER, HOME, ABOUT, SERVICES, PRODUCTS, TESTIMONIALS, FOOTER
+   */
+
+  .navbar-wrapper,
+  .home,
+  .about,
+  .services,
+  .product,
+  .testimonials,
+  .footer-wrapper {
+    max-width: var(--mw);
+    margin-inline: auto;
+  }
+
+}
+
+
+
+
+
+/*-----------------------------------*\ 
+  #for large tablat
+\*-----------------------------------*/
+
+@media (min-width: 768px) {
+
+  /**
+   * CUSTOM PROPERTY 
+   */
+
+  :root {
+
+    /**
+     * typography 
+     */
+
+    --fs-1: 72px;
+    --fs-2: 40px;
+    --fs-3: 22px;
+
+    /**
+     * spacing 
+     */
+
+    --mw: 720px;
+
+  }
+
+
+
+  /**
+   * REUSED STYLE
+   */
+
+  .section-title { max-width: 460px; }
+
+
+
+  /**
+   * HEADER 
+   */
+
+  .cart-item .product-price { font-size: 18px; }
+
+
+
+  /**
+   * HOME 
+   */
+
+  .shape-1 { top: 27%; }
+
+  .shape-3 {
+    left: 50%;
+    width: 50px;
+  }
+
+  .shape-4 {
+    top: 35%;
+    width: 100px;
+  }
+
+
+
+  /**
+   * ABOUT 
+   */
+
+  .about-left .img-box { aspect-ratio: 5 / 3; }
+
+  
+
+  /**
+   * SERVICES 
+   */
+
+   .services {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  .service-card {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 10px;
+    align-items: start;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border-radius: 8px;
+  }
+  
+  .service-card .card-number {
+    grid-row: 1 / 2;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #ffd700;
+    margin-right: 15px;
+  }
+  
+  .service-card .card-heading {
+    grid-column: 2 / 3;
+    font-size: 1.5rem; /* Ligeramente aumentado */
+    font-weight: bold;
+    margin: 0;
+    align-self: center;
+  }
+  
+  .service-card .card-text {
+    grid-column: 1 / 3;
+    margin-top: 12px;
+    font-size: 1rem; /* Aumentado de 0.9rem a 1rem */
+    line-height: 1.5; /* Aumentado para mejor legibilidad */
+  }
+  
+  .service-card .price {
+    font-weight: bold;
+    color: #e44d26;
+  }
+  
+  /* Ajustes específicos para la tercera tarjeta */
+  .service-card:nth-child(3) .card-text {
+    font-size: 0.95rem; /* Ligeramente más pequeño que las otras, pero más grande que antes */
+  }
+  
+  /* Estilos adicionales para mejorar la legibilidad */
+  .service-card strong {
+    font-size: 1.05rem; /* Ligeramente más grande para los textos en negrita */
+  }
+  
+  .service-card em {
+    font-style: italic;
+    color: #4a4a4a;
+  }
+
+  
+
+.menu-categories {
+  position: fixed;
+  top: 130;
+  left: 0;
+  width: 100%;
+  background-color: #fff; /* Asegúrate de que tenga un fondo para que se vea claramente */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Añade una sombra para destacar la barra */
+}
+
+
+.menu-categories ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.menu-categories li {
+    margin: 0 10px;
+}
+
+.menu-categories a {
+    text-decoration: none;
+    color: #4d4848;
+    padding: 10px 5px;
+    display: inline-block;
+    font-weight: bold;
+}
+
+.menu-categories a.active,
+.menu-categories a:hover {
+    color: #e44d26;
+    border-bottom: 2px solid #e44d26;
+}
+
+#menu-content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.menu-price {
+    font-style: italic;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.menu-items {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.menu-item {
+    color: #666;
+    font-size: 0.9rem;
+    border-bottom: 1px solid #e0e0e0;
+    padding-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+    .menu-items {
+        grid-template-columns: 1fr;
+    }
+}
+
+
+#allergen-explanation {
+  margin-top: 50px;
+  padding: 20px;
+  background-color: #f0f0f0;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+#allergen-explanation h2 {
+  margin-bottom: 15px;
+  font-size: 1.3em;
+  color: #6e6969;
+}
+
+.allergen-list {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  padding-left: 0;
+  margin: 0;
+  flex-wrap: wrap; /* Permite que los elementos se envuelvan en la siguiente línea si es necesario */
+}
+
+.allergen-list li {
+  margin: 5px 10px; /* Ajusta el margen para mayor flexibilidad */
+  font-size: 1.1em;
+  color: #645f5f;
+  white-space: nowrap;
+}
+
+/* Media query para pantallas pequeñas */
+@media (max-width: 768px) {
+  .allergen-list {
+    justify-content: flex-start; /* Alinea los elementos al inicio */
+  }
+
+  .allergen-list li {
+    flex: 1 1 calc(50% - 20px); /* Ocupa el 50% del ancho con margen */
+  }
+}
+
+@media (max-width: 480px) {
+  .allergen-list li {
+    flex: 1 1 100%; /* Ocupa el 100% del ancho disponible */
+    text-align: center; /* Centra el texto para mejor presentación en móviles */
+  }
+}
+
+
+
+
+
+  /**
+   * PRODUCTS 
+   */
+
+  .products-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 60px 40px;
+    margin-bottom: 70px;
+  }
+
+
+
+  /**
+   * TESTIMONIALS 
+   */
+
+  .testimonials-grid { grid-template-columns: 1fr 1fr; }
+
+}
+
+
+
+
+
+/*-----------------------------------*\ 
+  #for desktop
+\*-----------------------------------*/
+
+@media (min-width: 1024px) {
+
+  /**
+   * CUSTOM PROPERTY 
+   */
+
+  :root {
+
+    /**
+     * spacing 
+     */
+
+    --py: 100px;
+    --mw: 950px;
+
+  }
+
+
+
+  /**
+   * HEADER 
+   */
+
+  .navbar { padding: 35px 30px; }
+
+  .navbar-nav {
+    position: static;
+    opacity: 1;
+    visibility: visible;
+    width:  auto;
+    height: auto;
+    transform: translateY(0);
+    padding: 0;
+    flex-direction: row;
+    gap: 50px;
+    pointer-events: all;
+    
+  }
+
+  .menu-toggle-btn { display: none; }
+
+  .cart-box {
+    max-width: 450px;
+    height: calc(100vh - 121px);
+  }
+
+  .cart-box-ul {
+    padding: 60px;
+    padding-bottom: 150px;
+  }
+
+  .cart-btn-group { padding: 30px 60px; }
+
+
+
+  /**
+   * HOME 
+   */
+
+  .home {
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+  }
+
+  .home-left { text-align: left; }
+
+  .home-text { margin-inline: 0; }
+
+  .home .btn-group { justify-content: start; }
+
+  .dialog-1, .dialog-2 { width: 260px; }
+
+
+
+  /**
+   * ABOUT 
+   */
+
+  .about {
+    grid-template-columns: 3fr 4fr;
+    gap: 80px;
+    align-items: center;
+    padding: var(--py) var(px) 120px;
+  }
+
+  .about-left .img-box { aspect-ratio: auto; }
+
+  .shape-7 {
+    top:   80%;
+    left: -25px;
+    width: 50px;
+  }
+
+  .shape-9 {
+    bottom: -40px;
+    left:    15%;
+    width: 100px;
+  }
+
+
+
+  /**
+   * SERVICES 
+   */
+
+  .services {
+    grid-template-columns: 1fr 1fr;
+    gap: 60px 30px;
+  }
+
+
+
+  /**
+   * PRODUCTS 
+   */
+
+  .products-grid { grid-template-columns: repeat(3, 1fr); }
+
+
+
+  /**
+   * TESTIMONIALS 
+   */
+
+  .testimonials { padding-bottom: 200px; }
+
+
+
+  /**
+   * FOOTER 
+   */
+
+  .footer-wrapper {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  
+
+}
+
+
+
+
+
+/*-----------------------------------*\ 
+  #for large desktop
+\*-----------------------------------*/
+
+@media (min-width: 1200px) {
+
+  /**
+   * CUSTOM PROPERTY 
+   */
+
+  :root {
+
+    /**
+     * spacing 
+     */
+
+    --mw: 1150px;
+
+  }
+
+
+
+  /**
+   * SERVICES 
+   */
+
+  .services { grid-template-columns: repeat(3, 1fr); }
+
+}
