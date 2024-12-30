@@ -1,0 +1,3 @@
+# Configuración básica para Jekyll
+sass:
+  sass_dir: assets/css
