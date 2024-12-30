@@ -244,12 +244,12 @@
   
 
 .menu-categories {
-  position: fixed;
+  position: sticky; /* Menú fijo en la parte superior */
   top: 130;
-  left: 0;
-  width: 100%;
-  background-color: #fff; /* Asegúrate de que tenga un fondo para que se vea claramente */
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Añade una sombra para destacar la barra */
+  background-color: #fff;
+  z-index: 1000;
+  border-bottom: 1px solid #ddd;
+  padding: 10px 0;
 }
 
 

@@ -631,13 +631,20 @@ html {
 
 .menu-categories ul {
   display: flex;
+  overflow-x: auto; /* Permitir desplazamiento horizontal en móviles */
   justify-content: space-around;
   list-style-type: none;
   padding: 0;
   margin: 0;
+  scrollbar-width: none; /* Ocultar scroll en navegadores modernos */
+}
+
+.menu-categories ul::-webkit-scrollbar {
+  display: none; /* Ocultar scroll en navegadores WebKit */
 }
 
 .menu-categories li {
+  flex-shrink: 0; /* Evitar que se compriman en móviles */
   margin: 0 10px;
 }
 
@@ -646,14 +653,20 @@ html {
   color: #333;
   font-weight: bold;
   padding: 5px 10px;
-  transition: color 0.3s ease;
+  border-radius: 5px;
+  transition: color 0.3s ease, background-color 0.3s ease;
 }
 
 .menu-categories a:hover,
 .menu-categories a.active {
-  color: #8b0000;
+  color: #8b0000; /* Rojo oscuro */
+  background-color: #f2f2f2; /* Fondo claro para destacar */
 }
 
+section {
+  scroll-margin-top: 80px; /* Espaciado al desplazarse hacia un ancla */
+  padding: 20px;
+}
 
 
 
