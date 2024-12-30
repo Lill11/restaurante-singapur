@@ -38,16 +38,16 @@
 
   --fs-1: 46px;
   --fs-2: 28px;
-  --fs-3: 18px;
+  --fs-3: 1.125rem;
   --fs-4: 15px;
-  --fs-5: 14px;
+  --fs-5: 0.875rem;
 
   /**
    * spacing 
    */
 
-  --px: 30px;
-  --py: 60px;
+  --px: 1.875rem;
+  --py: 3.75rem;
 
   /**
    * others 
@@ -116,7 +116,7 @@ html {
   height: 55px;
   padding: 0 25px;
   color: var(--space-cadet);
-  font-size: 14px;
+  font-size: 0.875rem;
   font-weight: 500;
   transition: var(--default-transition);
 }
@@ -141,7 +141,7 @@ html {
 }
 
 .section-text {
-  max-width: 320px;
+  max-width: 100%;
   color: var(--rhythm);
   font-size: var(--fs-4);
   line-height: 1.4;
@@ -201,7 +201,7 @@ html {
   display:        flex;
   flex-direction: column;
   align-items:    center;
-  gap: 30px;
+  gap: 1.875rem;
   padding: 35px;
   backdrop-filter: blur(10px);
   transform: translateY(50px);
@@ -236,7 +236,7 @@ html {
   position: relative;
   background: var(--cultured);
   width:  50px;
-  height: 50px;
+  height: 3.125rem;
   border-radius: 50%;
   display:         flex;
   justify-content: center;
@@ -256,7 +256,7 @@ html {
   padding: 0 7px;
   border-radius: 20px;
   color: var(--space-cadet);
-  font-size: 12px;
+  font-size: 0.75rem;
   font-weight: 500;
 }
 
@@ -304,7 +304,7 @@ html {
 
 .cart-box-ul {
   height: 100%;
-  padding: 30px;
+  padding: 1.875rem;
   padding-bottom: 120px;
   overflow-y: auto;
 }
@@ -313,7 +313,7 @@ html {
 
 .cart-h4 {
   color: var(--space-cadet);
-  margin-bottom: 30px;
+  margin-bottom: 1.875rem;
   font-weight: 600;
 }
 
@@ -321,12 +321,12 @@ html {
   background: var(--cultured);
   display:     flex;
   align-items: center;
-  margin-bottom: 30px;
+  margin-bottom: 1.875rem;
 }
 
 .cart-item .img-box {
   width:  60px;
-  height: 60px;
+  height: 3.75rem;
   margin-right: 15px;
   overflow: hidden;
 }
@@ -352,7 +352,7 @@ html {
   color: var(--space-cadet);
   font-weight: 500;
   width:  60px;
-  height: 60px;
+  height: 3.75rem;
   display:         flex;
   justify-content: center;
   align-items:     center;
@@ -375,7 +375,7 @@ html {
   justify-content: space-between;
   align-items:     center;
   gap: 20px;
-  padding: 30px;
+  padding: 1.875rem;
   border-top: 1px solid hsla(0, 0%, 0%, 0.1);
   z-index: 15;
 }
@@ -391,7 +391,7 @@ html {
 .home {
   display: grid;
   grid-template-columns: 1fr;
-  gap: 50px;
+  gap: 3.125rem;
   padding: 150px var(--px) var(--py);
 }
 
@@ -403,7 +403,7 @@ html {
   font-size: 13px;
   display: inline-block;
   padding: 3px;
-  margin-bottom: 30px;
+  margin-bottom: 1.875rem;
 }
 
 .main-heading {
@@ -412,12 +412,12 @@ html {
   font-weight: 600;
   line-height: 1.1;
   letter-spacing: -2px;
-  margin-bottom: 30px;
+  margin-bottom: 1.875rem;
 }
 
 .home-text {
   color: var(--rhythm);
-  margin-bottom: 30px;
+  margin-bottom: 1.875rem;
   line-height: 1.6;
 }
 
@@ -509,7 +509,7 @@ html {
 }
 
 .menu-individual, .menu-grupos {
-  margin-bottom: 40px;
+  margin-bottom: 2.5rem;
 }
 
 .menu-title {
@@ -566,7 +566,7 @@ html {
   border-bottom: 2px solid #8b0000;
   padding-bottom: 10px;
   margin-bottom: 20px;
-  font-size: 24px;
+  font-size: 1.5rem;
 }
 
 .menu-section h2 span {
@@ -664,7 +664,7 @@ html {
 
 .menu-section2 {
   background-color: rgba(255, 255, 240, 0.7);
-  padding: 40px; /* Aumenta el padding */
+  padding: 2.5rem; /* Aumenta el padding */
   border-radius: 10px;
   max-width: 800px; /* Limita el ancho máximo de la sección */
   margin: 0 auto; /* Centra la sección en la página */
@@ -696,22 +696,22 @@ html {
 
 .dish-name {
   flex-grow: 1;
-  margin-right: 50px; /* Aumenta el espacio entre el nombre y el precio */
+  margin-right: 3.125rem; /* Aumenta el espacio entre el nombre y el precio */
   font-weight: bold;
-  font-size: 18px; /* Aumenta el tamaño de la fuente */
+  font-size: 1.125rem; /* Aumenta el tamaño de la fuente */
 }
 
 .dish-icons {
   margin-right: 20px; /* Aumenta el margen derecho */
   white-space: nowrap;
-  font-size: 18px; /* Aumenta el tamaño de los iconos */
+  font-size: 1.125rem; /* Aumenta el tamaño de los iconos */
 }
 
 .dish-price {
   font-weight: bold;
-  min-width: 100px; /* Aumenta el espacio mínimo para el precio */
+  min-width: 6.25rem; /* Aumenta el espacio mínimo para el precio */
   text-align: right;
-  font-size: 18px; /* Aumenta el tamaño de la fuente del precio */
+  font-size: 1.125rem; /* Aumenta el tamaño de la fuente del precio */
 }
 
 
@@ -749,7 +749,7 @@ html {
   padding: var(--py) var(--px);
   display: grid;
   grid-template-columns: 1fr;
-  gap: 60px;
+  gap: 3.75rem;
 }
 
 .about-left { position: relative; }
@@ -781,7 +781,7 @@ html {
   position: absolute;
   bottom: -20px;
   right:  -20px;
-  padding: 30px;
+  padding: 1.875rem;
   text-align: center;
   box-shadow: 2px 2px 10px hsla(0, 0%, 0%, 0.1);
 }
@@ -827,11 +827,11 @@ html {
   animation: moveUp 3s ease-in-out infinite;
 }
 
-.about-right .section-title { margin-bottom: 30px; }
+.about-right .section-title { margin-bottom: 1.875rem; }
 
 .about-right p {
   max-width: 100%;
-  margin-bottom: 30px;
+  margin-bottom: 1.875rem;
 }
 
 
@@ -846,7 +846,7 @@ html {
   padding: var(--py) var(--px);
   display: grid;
   grid-template-columns: 1fr;
-  gap: 40px;
+  gap: 2.5rem;
 }
 
 .service-card .card-number {
@@ -879,15 +879,15 @@ html {
 
 .product { padding: var(--py) var(--px); }
 
-.product .section-title { margin-bottom: 30px; }
+.product .section-title { margin-bottom: 1.875rem; }
 
-.product .section-text { margin-bottom: 60px; }
+.product .section-text { margin-bottom: 3.75rem; }
 
 .products-grid {
   display: grid;
   grid-template-columns: 1fr;
-  gap: 40px;
-  margin-bottom: 50px;
+  gap: 2.5rem;
+  margin-bottom: 3.125rem;
 }
 
 .product-card .img-box {
@@ -912,7 +912,7 @@ html {
   align-items: center;
   gap: 5px;
   padding: 5px 8px;
-  font-size: 14px;
+  font-size: 0.875rem;
 }
 
 .card-badge ion-icon { font-size: 13px; }
@@ -945,18 +945,18 @@ html {
 
 .product-card .product-price {
   background: var(--saffron);
-  height: 60px;
+  height: 3.75rem;
   width:  60px;
   display:         flex;
   justify-content: center;
   align-items:     center;
   color: var(--space-cadet);
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 500;
 }
 
 .product-card .small {
-  font-size: 12px;
+  font-size: 0.75rem;
   font-weight: 400;
   margin-top: 5px;
 }
@@ -990,12 +990,12 @@ html {
 
 .testimonials .section-title { margin-bottom: 15px; }
 
-.testimonials .section-text { margin-bottom: 50px; }
+.testimonials .section-text { margin-bottom: 3.125rem; }
 
 .testimonials-grid {
   display: grid;
   grid-template-columns: 1fr;
-  gap: 50px;
+  gap: 3.125rem;
 }
 
 .testimonials-card .card-title {
@@ -1029,7 +1029,7 @@ html {
 
 .customer-img-box {
   width:  50px;
-  height: 50px;
+  height: 3.125rem;
   border-radius: 50%;
   overflow: hidden;
 }
@@ -1041,7 +1041,7 @@ html {
 }
 
 .customer-name {
-  font-size: 14px;
+  font-size: 0.875rem;
   color: var(--space-cadet);
   font-weight: 600;
 }
@@ -1056,14 +1056,14 @@ html {
 
 footer {
   background: var(--space-cadet);
-  padding: 50px var(--px);
+  padding: 3.125rem var(--px);
 }
 
 .footer-wrapper {
   display:        flex;
   flex-direction: column;
   align-items:    center;
-  gap: 30px;
+  gap: 1.875rem;
 }
 
 .social-link {
@@ -1080,7 +1080,7 @@ footer {
 .social-link ion-icon:hover { color: var(--saffron); }
 
 .copyright {
-  font-size: 12px;
+  font-size: 0.75rem;
   color: var(--rhythm);
   text-align: center;
   letter-spacing: 0.5px;
