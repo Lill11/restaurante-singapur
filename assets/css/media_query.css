@@ -178,6 +178,14 @@
 
   
 
+  .about-img {
+    width: 100%; /* Esto asegura que ocupe el ancho máximo del contenedor */
+    max-width: 600px; /* Establece un tamaño máximo si es necesario */
+    height: auto; /* Mantén las proporciones de la imagen */
+    border-radius: 10px; /* Opcional: añade esquinas redondeadas si es necesario */
+}
+
+
   /**
    * SERVICES 
    */
