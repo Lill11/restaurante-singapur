@@ -664,38 +664,53 @@ html {
   z-index: 1000;
   padding: 10px 0;
   border-bottom: 1px solid #ddd;
-  overflow-x: auto;
-  /* Habilitar desplazamiento horizontal */
-  white-space: nowrap;
-  /* Evitar que los elementos se envuelvan */
+  overflow-x: auto; /* Permitir desplazamiento horizontal */
+  white-space: nowrap; /* Evitar que los elementos se envuelvan */
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 
+/* Flechas para pantallas pequeñas */
+.menu-categories .arrow {
+  display: none; /* Ocultar por defecto en pantallas grandes */
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 5px;
+  border-radius: 50%;
+  cursor: pointer;
+  position: relative;
+  z-index: 1000;
+}
+
+.menu-categories .arrow svg {
+  width: 20px;
+  height: 20px;
+  fill: #888;
+}
+
+/* Menú interno */
 .menu-categories ul {
   display: flex;
-  justify-content: start;
-  /* Alinear a la izquierda */
   list-style-type: none;
   padding: 0;
   margin: 0;
   gap: 10px;
-  /* Espaciado entre elementos */
+  overflow-x: auto; /* Permitir desplazamiento horizontal */
+  scrollbar-width: thin; /* Barra visible */
 }
 
 .menu-categories ul::-webkit-scrollbar {
-  height: 6px;
-  /* Mostrar barra de desplazamiento pequeña */
+  height: 5px;
 }
 
 .menu-categories ul::-webkit-scrollbar-thumb {
   background: #ddd;
-  /* Color del scroll */
   border-radius: 10px;
 }
 
 .menu-categories li {
-  flex-shrink: 0;
-  /* Evitar que los elementos se reduzcan */
-  margin: 0;
+  flex-shrink: 0; /* Evitar que los elementos se reduzcan */
 }
 
 .menu-categories a {
@@ -710,25 +725,20 @@ html {
 
 .menu-categories a.active,
 .menu-categories a:hover {
-  color: #8b0000;
-  /* Rojo oscuro */
+  color: #e44d26;
   background-color: #f2f2f2;
-  /* Fondo claro para destacar */
 }
 
-.menu-categories::after {
-  content: '⟶';
-  /* Indicador visual de desplazamiento */
-  position: absolute;
-  right: 10px;
-  top: 50%;
-  transform: translateY(-50%);
-  color: #888;
-  font-size: 20px;
-  pointer-events: none;
-  /* No interactuar con este elemento */
-}
+/* Mostrar flechas solo en pantallas pequeñas */
+@media (max-width: 768px) {
+  .menu-categories {
+      justify-content: space-between;
+  }
 
+  .menu-categories .arrow {
+      display: block;
+  }
+}
 
 
 /**

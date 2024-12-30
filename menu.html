@@ -95,17 +95,24 @@
     <!-- Main content -->
     <main>
       <nav class="menu-categories">
+        <button class="arrow left">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M15.41 16.59L10.83 12l4.58-4.59L14 6l-6 6 6 6z"/></svg>
+        </button>
         <ul>
-          <li><a href="#menus" class="active">MENÚS</a></li>
-          <li><a href="#entrantes">ENTRANTES</a></li>
-          <li><a href="#sopas">SOPAS, BAO Y DIM-SUM</a></li>
-          <li><a href="#arroz">ARROZ, FIDEOS Y TALLARINES</a></li>
-          <li><a href="#ternera">TERNERA Y POLLO</a></li>
-          <li><a href="#cerdo">CERDO Y PATO</a></li>
-          <li><a href="#platos">PLATOS ESPECIALES</a></li>
-          <li><a href="#postres">POSTRES</a></li>
+            <li><a href="#menus" class="active">MENÚS</a></li>
+            <li><a href="#entrantes">ENTRANTES</a></li>
+            <li><a href="#sopas">SOPAS, BAO Y DIM-SUM</a></li>
+            <li><a href="#arroz">ARROZ, FIDEOS Y TALLARINES</a></li>
+            <li><a href="#ternera">TERNERA Y POLLO</a></li>
+            <li><a href="#cerdo">CERDO Y PATO</a></li>
+            <li><a href="#platos">PLATOS ESPECIALES</a></li>
+            <li><a href="#postres">POSTRES</a></li>
         </ul>
-      </nav>
+        <button class="arrow right">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M8.59 16.59L13.17 12 8.59 7.41 10 6l6 6-6 6z"/></svg>
+        </button>
+    </nav>
+    
       <div style="height: 10px;"></div>
       <section id="allergen-explanation">
         <h2>Explicación de Alérgenos</h2>
@@ -182,6 +189,21 @@
   <!-- Scripts JS -->
   <script src="menu.js" defer></script>
 
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const menu = document.querySelector('.menu-categories ul');
+        const leftArrow = document.querySelector('.menu-categories .arrow.left');
+        const rightArrow = document.querySelector('.menu-categories .arrow.right');
+
+        leftArrow.addEventListener('click', () => {
+            menu.scrollBy({ left: -100, behavior: 'smooth' });
+        });
+
+        rightArrow.addEventListener('click', () => {
+            menu.scrollBy({ left: 100, behavior: 'smooth' });
+        });
+    });
+</script>
 
 </body>
 
