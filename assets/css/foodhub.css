@@ -596,6 +596,8 @@ html {
 .menu-section {
   width: 48%;
   margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 10px;
 }
 
 .menu-section h2 {
@@ -1226,4 +1228,19 @@ footer {
   color: var(--rhythm);
   text-align: center;
   letter-spacing: 0.5px;
+}
+
+
+.contact-info {
+  display: flex;
+  align-items: center;
+  gap: 8px; /* Espacio entre el ícono y el número */
+  font-size: 1rem;
+  margin-top: 10px; /* Añade espacio superior si es necesario */
+  color: #333; /* Color del texto y el ícono */
+}
+
+.contact-info ion-icon {
+  font-size: 1.2rem;
+  color: #4caf50; /* Cambia el color del ícono si lo deseas */
 }

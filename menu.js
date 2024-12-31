@@ -596,6 +596,129 @@ function loadMenuContent(category) {
 </div>
 
         `,
+        marisco: `
+        <div class="menu-section2">
+    <h1>Pescado y marisco</h1>
+    <ul class="dish-list">
+        <li>
+            <span class="dish-name">Gambas con bambú y setas chinas</span>
+            <span class="dish-icons">🌿 🦪</span>
+            <span class="dish-price">6,00€</span>
+        </li>
+        <li>
+            <span class="dish-name">Gambas con salsa de ostras</span>
+            <span class="dish-icons">🦪 🌿</span>
+            <span class="dish-price">5,90€</span>
+        </li>
+        <li>
+            <span class="dish-name">Gambas con salsa agridulce</span>
+            <span class="dish-icons">🌾</span>
+            <span class="dish-price">5,75€</span>
+        </li>
+        <li>
+            <span class="dish-name">Gambas con kun bao</span>
+            <span class="dish-icons">🌶️ 🥜 ⚪</span>
+            <span class="dish-price">5,80€</span>
+        </li>
+        <li>
+            <span class="dish-name">Gambas con verduras</span>
+            <span class="dish-icons">🌿 🦪</span>
+            <span class="dish-price">5,55€</span>
+        </li>
+        <li>
+            <span class="dish-name">Gambas “Zhao Chai”</span>
+            <span class="dish-icons">⚪ 🥬</span>
+            <span class="dish-price">7,75€</span>
+        </li>
+        <li>
+            <span class="dish-name">Gambas con salsa curry</span>
+            <span class="dish-icons">⚪</span>
+            <span class="dish-price">5,80€</span>
+        </li>
+        <li>
+            <span class="dish-name">Gambas fritas</span>
+            <span class="dish-icons">🌾 🥚 ⚪</span>
+            <span class="dish-price">6,00€</span>
+        </li>
+        <li>
+            <span class="dish-name">Gambas con anacardo</span>
+            <span class="dish-icons">🥜 ⚪</span>
+            <span class="dish-price">6,75€</span>
+        </li>
+        <li>
+            <span class="dish-name">Gambas con curry rojo</span>
+            <span class="dish-icons"></span>
+            <span class="dish-price">6,15€</span>
+        </li>
+        <li>
+            <span class="dish-name">Gambas chili limón</span>
+            <span class="dish-icons">🌶️</span>
+            <span class="dish-price">6,15€</span>
+        </li>
+        <li>
+            <span class="dish-name">Gambas con pimienta negra</span>
+            <span class="dish-icons">🦪</span>
+            <span class="dish-price">6,15€</span>
+        </li>
+        <li>
+            <span class="dish-name">Calamares fritos “a la romana”</span>
+            <span class="dish-icons">🌾 🥚 🥛</span>
+            <span class="dish-price">5,50€</span>
+        </li>
+        <li>
+            <span class="dish-name">Calamares kun bao</span>
+            <span class="dish-icons">🌶️ 🥜</span>
+            <span class="dish-price">6,75€</span>
+        </li>
+        <li>
+            <span class="dish-name">Calamares con salsa curry</span>
+            <span class="dish-icons">⚪</span>
+            <span class="dish-price">6,75€</span>
+        </li>
+        <li>
+            <span class="dish-name">Calamares “Zhao Chai”</span>
+            <span class="dish-icons">⚪ 🥬</span>
+            <span class="dish-price">7,05€</span>
+        </li>
+        <li>
+            <span class="dish-name">Pescado frito</span>
+            <span class="dish-icons">🌾 🥚 🐟</span>
+            <span class="dish-price">4,45€</span>
+        </li>
+        <li>
+            <span class="dish-name">Pescado frito a la plancha</span>
+            <span class="dish-icons">🌾 🥚 🐟</span>
+            <span class="dish-price">5,75€</span>
+        </li>
+        <li>
+            <span class="dish-name">Pescado agridulce</span>
+            <span class="dish-icons">🌾 🥚 🐟</span>
+            <span class="dish-price">4,45€</span>
+        </li>
+        <li>
+            <span class="dish-name">Langostinos de la casa</span>
+            <span class="dish-icons">🌾 🥚 🦀</span>
+            <span class="dish-price">7,40€</span>
+        </li>
+        <li>
+            <span class="dish-name">Langostinos a la plancha</span>
+            <span class="dish-icons">🌾 🥚 🦀</span>
+            <span class="dish-price">8,25€</span>
+        </li>
+        <li>
+            <span class="dish-name">Cangrejo chino a la plancha</span>
+            <span class="dish-icons">🌾 🥚 🦀</span>
+            <span class="dish-price">7,65€</span>
+        </li>
+        <li>
+            <span class="dish-name">Cangrejo chino con huevo</span>
+            <span class="dish-icons">🌾 🥚 🦀</span>
+            <span class="dish-price">6,85€</span>
+        </li>
+    </ul>
+</div>
+
+        `,
         platos: `
         <div class="menu-section2">
     <h1>Platos Variados</h1>
