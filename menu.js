@@ -26,7 +26,7 @@ function loadMenuContent(category) {
                 <p class="menu-subtitle">disponible durante toda la semana (excepto festivos)</p>
                 <div class="menu-price">
                     <span class="price-decoration">◆◆◆◆◆◆◆◆◆◆</span>
-                    <span class="price">7,00€</span>
+                    <span class="price">7,95€</span>
                     <span class="price-decoration">◆◆◆◆◆◆◆◆◆◆</span>
                 </div>
                 <p class="menu-instruction">A elegir:</p>
@@ -81,32 +81,32 @@ function loadMenuContent(category) {
 
             <div class="menu-grupos">
                 <h1 class="menu-title">MENÚS</h1>
-                <p class="menu-note">No incluye bebidas ni postre</p>
+                <p class="menu-note"><strong>no incluye bebida</strong> / <strong>Incluye una bebida</strong></p>
                 
                 <div class="group-menus">
                     <div class="group-menu">
-                        <h2>Menú para 2 personas <span class="price">15,95€</span></h2>
+                        <h2>Menú para 2 personas <span class="price">19,95€ / 23,95€</span></h2>
                         <p>Ensalada china · 2 Rollos de primavera · Pan de gambas · 
                         Arroz frito tres delicias · Bolas de pollo frito · Ternera con 
                         salsa de ostras</p>
                     </div>
                     
                     <div class="group-menu">
-                        <h2>Menú para 3 personas <span class="price">22,45€</span></h2>
+                        <h2>Menú para 3 personas <span class="price">29,95€ / 35,95€</span></h2>
                         <p>Ensalada china · 3 Rollos de primavera · Pan de gambas · 
                         2 Arroz frito tres delicias · Ternera con salsa de ostras · Cerdo 
                         agridulce · Bolas de pollo frito</p>
                     </div>
                     
                     <div class="group-menu">
-                        <h2>Menú para 4 personas <span class="price">31,95€</span></h2>
+                        <h2>Menú para 4 personas <span class="price">39,95€ / 47,95€</span></h2>
                         <p>2 Ensalada china · 4 Rollos de primavera · Pan de gambas · 
                         2 Arroz frito tres delicias · Familia feliz · Ternera con salsa de 
                         ostras · Bolas de pollo frito · Gambas fritas</p>
                     </div>
                     
                     <div class="group-menu">
-                        <h2>Menú para 5 personas <span class="price">39,95€</span></h2>
+                        <h2>Menú para 5 personas <span class="price">49,95€ / 59,95€</span></h2>
                         <p>2 Ensalada china · 5 Rollos de primavera · Pan de gambas · 
                         2 Arroz frito tres delicias · Ternera con salsa de ostras · Pollo 
                         con almendras · Gambas a la plancha · Cerdo agridulce · Bolas 
@@ -114,7 +114,7 @@ function loadMenuContent(category) {
                     </div>
                     
                     <div class="group-menu">
-                        <h2>Menú para 6 personas <span class="price">47,95€</span></h2>
+                        <h2>Menú para 6 personas <span class="price">59,95€ / 69,95€</span></h2>
                         <p>3 Ensalada china · 6 Rollos de primavera · Pan de gambas · 
                         2 Arroz frito tres delicias · Ternera a la plancha · Pollo con 
                         almendras · Gambas a la plancha · Cerdo agridulce · Bolas de 
@@ -131,77 +131,77 @@ function loadMenuContent(category) {
         <li>
             <span class="dish-name">Ensalada china</span>
             <span class="dish-icons">🥚 🌿</span>
-            <span class="dish-price">2,50€</span>
+            <span class="dish-price">2,70€</span>
         </li>
         <li>
             <span class="dish-name">Ensalada china con gambas</span>
             <span class="dish-icons">🦀 🥚 🌿</span>
-            <span class="dish-price">3,50€</span>
+            <span class="dish-price">3,70€</span>
         </li>
         <li>
             <span class="dish-name">Ensalada de brotes de soja con gambas</span>
             <span class="dish-icons">🦀</span>
-            <span class="dish-price">3,80€</span>
+            <span class="dish-price">4,00€</span>
         </li>
         <li>
             <span class="dish-name">Ensaladas de algas</span>
             <span class="dish-icons">🦀 🥚 🌿</span>
-            <span class="dish-price">3,80€</span>
+            <span class="dish-price">4,00€</span>
         </li>
         <li>
             <span class="dish-name">Ensalada especial</span>
             <span class="dish-icons">🦀 🥚 🌿</span>
-            <span class="dish-price">4,10€</span>
+            <span class="dish-price">4,50€</span>
         </li>
         <li>
             <span class="dish-name">Rollo de primavera con ensalada</span>
             <span class="dish-icons">🌾 🥚 🌿</span>
-            <span class="dish-price">2,80€</span>
+            <span class="dish-price">3,00€</span>
         </li>
         <li>
             <span class="dish-name">Pan de gambas</span>
             <span class="dish-icons">🦀</span>
-            <span class="dish-price">2,00€</span>
+            <span class="dish-price">2,20€</span>
         </li>
         <li>
             <span class="dish-name">Pan chino</span>
             <span class="dish-icons">🌾 🥛</span>
-            <span class="dish-price">1,40€</span>
+            <span class="dish-price">1,60€</span>
         </li>
         <li>
             <span class="dish-name">Rollo de primavera</span>
             <span class="dish-icons">🌾</span>
-            <span class="dish-price">1,30€</span>
+            <span class="dish-price">1,50€</span>
         </li>
         <li>
             <span class="dish-name">Rollo de primavera especial</span>
             <span class="dish-icons">🌾 🦀</span>
-            <span class="dish-price">1,55€</span>
+            <span class="dish-price">1,65€</span>
         </li>
         <li>
             <span class="dish-name">Rollo de triángulo 4pcs</span>
             <span class="dish-icons">🌾</span>
-            <span class="dish-price">2,00€</span>
+            <span class="dish-price">2,20€</span>
         </li>
         <li>
             <span class="dish-name">Won ton frito 10pcs</span>
             <span class="dish-icons">🌾</span>
-            <span class="dish-price">2,20€</span>
+            <span class="dish-price">2,40€</span>
         </li>
         <li>
             <span class="dish-name">Won ton frito de queso 8pcs</span>
             <span class="dish-icons">🌾 🥛</span>
-            <span class="dish-price">3,80€</span>
+            <span class="dish-price">4,00€</span>
         </li>
         <li>
             <span class="dish-name">Entremeses de la casa</span>
             <span class="dish-icons">🌾</span>
-            <span class="dish-price">5,65€</span>
+            <span class="dish-price">5,85€</span>
         </li>
         <li>
             <span class="dish-name">Entremeses de marisco</span>
             <span class="dish-icons">🌾 🦀 🥛</span>
-            <span class="dish-price">6,35€</span>
+            <span class="dish-price">6,55€</span>
         </li>
     </ul>
 </div>
@@ -214,12 +214,12 @@ function loadMenuContent(category) {
         <li>
             <span class="dish-name">Sopa de aleta burón</span>
             <span class="dish-icons">⚪</span>
-            <span class="dish-price">2,50€</span>
+            <span class="dish-price">2,60€</span>
         </li>
         <li>
             <span class="dish-name">Sopa agripicante</span>
             <span class="dish-icons">🌶️ 🥚 ⚪</span>
-            <span class="dish-price">2,40€</span>
+            <span class="dish-price">2,50€</span>
         </li>
         <li>
             <span class="dish-name">Sopa de maíz con pollo</span>
@@ -234,7 +234,7 @@ function loadMenuContent(category) {
         <li>
             <span class="dish-name">Sopa de pollo y champiñón</span>
             <span class="dish-icons">⚪</span>
-            <span class="dish-price">2,30€</span>
+            <span class="dish-price">2,40€</span>
         </li>
         <li>
             <span class="dish-name">Sopa de marisco de la casa</span>
@@ -254,22 +254,22 @@ function loadMenuContent(category) {
         <li>
             <span class="dish-name">Xiao long bao 4pcs</span>
             <span class="dish-icons">🌾</span>
-            <span class="dish-price">3,40€</span>
+            <span class="dish-price">3,95€</span>
         </li>
         <li>
             <span class="dish-name">Siu mai 4pcs</span>
             <span class="dish-icons">🌾</span>
-            <span class="dish-price">3,80€</span>
+            <span class="dish-price">3,95€</span>
         </li>
         <li>
             <span class="dish-name">Si xi jiao 4pcs</span>
             <span class="dish-icons">🌾</span>
-            <span class="dish-price">3,80€</span>
+            <span class="dish-price">3,95€</span>
         </li>
         <li>
             <span class="dish-name">Xia jiao 4pcs</span>
             <span class="dish-icons">🦀</span>
-            <span class="dish-price">3,80€</span>
+            <span class="dish-price">3,95€</span>
         </li>
     </ul>
 </div>
@@ -282,27 +282,27 @@ function loadMenuContent(category) {
         <li>
             <span class="dish-name">Arroz frito tres delicias</span>
             <span class="dish-icons">🥚</span>
-            <span class="dish-price">3,30€</span>
+            <span class="dish-price">3,60€</span>
         </li>
         <li>
             <span class="dish-name">Arroz frito con gambas</span>
             <span class="dish-icons">🥚 🦀</span>
-            <span class="dish-price">3,90€</span>
+            <span class="dish-price">4,20€</span>
         </li>
         <li>
             <span class="dish-name">Arroz frito de la casa</span>
             <span class="dish-icons">🥚 🌿 🦀</span>
-            <span class="dish-price">4,15€</span>
+            <span class="dish-price">4,50€</span>
         </li>
         <li>
             <span class="dish-name">Arroz blanco</span>
             <span class="dish-icons">🍚</span>
-            <span class="dish-price">1,50€</span>
+            <span class="dish-price">1,60€</span>
         </li>
         <li>
             <span class="dish-name">Arroz frito especial</span>
             <span class="dish-icons">🥚 🌿 🦀</span>
-            <span class="dish-price">4,15€</span>
+            <span class="dish-price">4,50€</span>
         </li>
     </ul>
 </div>
@@ -313,27 +313,27 @@ function loadMenuContent(category) {
         <li>
             <span class="dish-name">Tallarines fritos tres delicias</span>
             <span class="dish-icons">🌾 🌿</span>
-            <span class="dish-price">3,90€</span>
+            <span class="dish-price">4,20€</span>
         </li>
         <li>
             <span class="dish-name">Tallarines fritos con gambas</span>
             <span class="dish-icons">🌾 🌿 🦀</span>
-            <span class="dish-price">4,15€</span>
+            <span class="dish-price">4,45€</span>
         </li>
         <li>
             <span class="dish-name">Tallarines fritos con cerdo</span>
             <span class="dish-icons">🌾 🌿</span>
-            <span class="dish-price">3,75€</span>
+            <span class="dish-price">4,15€</span>
         </li>
         <li>
             <span class="dish-name">Tallarines fritos con anacardo</span>
             <span class="dish-icons">🌾 🌿 🥜</span>
-            <span class="dish-price">4,95€</span>
+            <span class="dish-price">5,15€</span>
         </li>
         <li>
             <span class="dish-name">Tallarines a la plancha</span>
             <span class="dish-icons">🌾 🌿 🦀</span>
-            <span class="dish-price">5,15€</span>
+            <span class="dish-price">5,45€</span>
         </li>
     </ul>
 </div>
@@ -344,12 +344,12 @@ function loadMenuContent(category) {
         <li>
             <span class="dish-name">Fideos chinos tres delicias</span>
             <span class="dish-icons">🌿 🦀</span>
-            <span class="dish-price">4,55€</span>
+            <span class="dish-price">4,85€</span>
         </li>
         <li>
             <span class="dish-name">Fideos chinos con ternera</span>
             <span class="dish-icons">🌿</span>
-            <span class="dish-price">4,25€</span>
+            <span class="dish-price">4,55€</span>
         </li>
     </ul>
 </div>
@@ -362,67 +362,67 @@ function loadMenuContent(category) {
         <li>
             <span class="dish-name">Ternera con bambú y setas chinas</span>
             <span class="dish-icons">🌿 🦪</span>
-            <span class="dish-price">5,15€</span>
+            <span class="dish-price">5,75€</span>
         </li>
         <li>
             <span class="dish-name">Ternera con salsa de ostra</span>
             <span class="dish-icons">🌿 🦪 🥬</span>
-            <span class="dish-price">4,80€</span>
+            <span class="dish-price">5,40€</span>
         </li>
         <li>
             <span class="dish-name">Ternera con champiñón</span>
             <span class="dish-icons">🌿 🦪</span>
-            <span class="dish-price">4,75€</span>
+            <span class="dish-price">5,35€</span>
         </li>
         <li>
             <span class="dish-name">Ternera con verduras</span>
             <span class="dish-icons">🌿 🦪</span>
-            <span class="dish-price">4,70€</span>
+            <span class="dish-price">5,30€</span>
         </li>
         <li>
             <span class="dish-name">Ternera con cebolla</span>
             <span class="dish-icons">🌿 🦪</span>
-            <span class="dish-price">4,60€</span>
+            <span class="dish-price">5,20€</span>
         </li>
         <li>
             <span class="dish-name">Ternera con kun bao</span>
             <span class="dish-icons">🌶️ 🥜 ⚪</span>
-            <span class="dish-price">4,85€</span>
+            <span class="dish-price">5,45€</span>
         </li>
         <li>
             <span class="dish-name">Ternera al curry</span>
             <span class="dish-icons">⚪</span>
-            <span class="dish-price">4,70€</span>
+            <span class="dish-price">5,30€</span>
         </li>
         <li>
             <span class="dish-name">Ternera con pimientos verdes</span>
             <span class="dish-icons">🌿</span>
-            <span class="dish-price">4,70€</span>
+            <span class="dish-price">5,30€</span>
         </li>
         <li>
             <span class="dish-name">Ternera con patatas</span>
             <span class="dish-icons">🦪</span>
-            <span class="dish-price">4,70€</span>
+            <span class="dish-price">5,30€</span>
         </li>
         <li>
             <span class="dish-name">Ternera con tomate</span>
             <span class="dish-icons"> </span>
-            <span class="dish-price">4,50€</span>
+            <span class="dish-price">5,10€</span>
         </li>
         <li>
             <span class="dish-name">Ternera con anacardo</span>
             <span class="dish-icons">🥜 ⚪</span>
-            <span class="dish-price">5,85€</span>
+            <span class="dish-price">6,45€</span>
         </li>
         <li>
             <span class="dish-name">Ternera con curry rojo</span>
             <span class="dish-icons"></span>
-            <span class="dish-price">4,95€</span>
+            <span class="dish-price">5,55€</span>
         </li>
         <li>
             <span class="dish-name">Ternera “Singapur” dulce y picante</span>
             <span class="dish-icons">🌶️</span>
-            <span class="dish-price">5,35€</span>
+            <span class="dish-price">5,95€</span>
         </li>
     </ul>
 </div>
@@ -433,92 +433,92 @@ function loadMenuContent(category) {
         <li>
             <span class="dish-name">Pollo con bambú y setas chinas</span>
             <span class="dish-icons">🌿 🦪</span>
-            <span class="dish-price">4,85€</span>
+            <span class="dish-price">5,25€</span>
         </li>
         <li>
             <span class="dish-name">Pollo con salsa de ostras</span>
             <span class="dish-icons">🌿 🦪 🥬</span>
-            <span class="dish-price">4,75€</span>
+            <span class="dish-price">5,15€</span>
         </li>
         <li>
             <span class="dish-name">Pollo con champiñón</span>
             <span class="dish-icons">🦪</span>
-            <span class="dish-price">4,45€</span>
+            <span class="dish-price">4,95€</span>
         </li>
         <li>
             <span class="dish-name">Pollo con verduras</span>
             <span class="dish-icons">🦪</span>
-            <span class="dish-price">4,40€</span>
+            <span class="dish-price">4,85€</span>
         </li>
         <li>
             <span class="dish-name">Pollo con almendras</span>
             <span class="dish-icons">🌿 🦪 🥬 🥜</span>
-            <span class="dish-price">4,55€</span>
+            <span class="dish-price">4,95€</span>
         </li>
         <li>
             <span class="dish-name">Pollo con kun bao</span>
             <span class="dish-icons">🌶️ 🥜 ⚪</span>
-            <span class="dish-price">4,55€</span>
+            <span class="dish-price">4,95€</span>
         </li>
         <li>
             <span class="dish-name">Pollo con salsa curry</span>
             <span class="dish-icons">⚪</span>
-            <span class="dish-price">4,35€</span>
+            <span class="dish-price">4,75€</span>
         </li>
         <li>
             <span class="dish-name">Pollo con salsa limón</span>
             <span class="dish-icons">🌾 🥚 ⚪</span>
-            <span class="dish-price">4,75€</span>
+            <span class="dish-price">5,15€</span>
         </li>
         <li>
             <span class="dish-name">Pollo con maíz, estilo chino</span>
             <span class="dish-icons"> </span>
-            <span class="dish-price">4,55€</span>
+            <span class="dish-price">4,95€</span>
         </li>
         <li>
             <span class="dish-name">Pollo con piña</span>
             <span class="dish-icons"> </span>
-            <span class="dish-price">4,90€</span>
+            <span class="dish-price">5,30€</span>
         </li>
         <li>
             <span class="dish-name">Pollo con anacardo</span>
             <span class="dish-icons">🥜 ⚪</span>
-            <span class="dish-price">5,45€</span>
+            <span class="dish-price">5,85€</span>
         </li>
         <li>
             <span class="dish-name">Pollo con curry rojo</span>
             <span class="dish-icons"> </span>
-            <span class="dish-price">4,85€</span>
+            <span class="dish-price">5,45€</span>
         </li>
         <li>
             <span class="dish-name">Pollo con chili limón</span>
             <span class="dish-icons"> </span>
-            <span class="dish-price">4,85€</span>
+            <span class="dish-price">5,25€</span>
         </li>
         <li>
             <span class="dish-name">Pollo con pimienta negra</span>
             <span class="dish-icons">🦪</span>
-            <span class="dish-price">5,25€</span>
+            <span class="dish-price">5,65€</span>
         </li>
         <li>
             <span class="dish-name">Pollo frito</span>
             <span class="dish-icons">🌾 🥚 ⚪</span>
-            <span class="dish-price">4,50€</span>
+            <span class="dish-price">4,90€</span>
         </li>
         <li>
             <span class="dish-name">Tiras de pollo frito</span>
             <span class="dish-icons">🌾 🥚</span>
-            <span class="dish-price">4,40€</span>
+            <span class="dish-price">4,80€</span>
         </li>
         <li>
             <span class="dish-name">Bolas de pollo frito</span>
             <span class="dish-icons">🌾 🥚</span>
-            <span class="dish-price">4,50€</span>
+            <span class="dish-price">4,90€</span>
         </li>
         <li>
             <span class="dish-name">Pollo “Singapur” con sésamo</span>
             <span class="dish-icons">🌶️ ⚪</span>
-            <span class="dish-price">5,25€</span>
+            <span class="dish-price">5,75€</span>
         </li>
     </ul>
 </div>
@@ -531,37 +531,37 @@ function loadMenuContent(category) {
         <li>
             <span class="dish-name">Cerdo agridulce</span>
             <span class="dish-icons">🌾 🥚</span>
-            <span class="dish-price">4,00€</span>
+            <span class="dish-price">4,30€</span>
         </li>
         <li>
             <span class="dish-name">Cerdo con bambú y setas chinas</span>
             <span class="dish-icons">🌿 🦪</span>
-            <span class="dish-price">4,65€</span>
+            <span class="dish-price">4,95€</span>
         </li>
         <li>
             <span class="dish-name">Costillas agridulce</span>
             <span class="dish-icons">🌿</span>
-            <span class="dish-price">4,65€</span>
+            <span class="dish-price">4,95€</span>
         </li>
         <li>
             <span class="dish-name">Costillas con salsa de soja</span>
             <span class="dish-icons">🌿</span>
-            <span class="dish-price">5,25€</span>
+            <span class="dish-price">5,75€</span>
         </li>
         <li>
             <span class="dish-name">Costilla asada</span>
             <span class="dish-icons">🌿</span>
-            <span class="dish-price">5,40€</span>
+            <span class="dish-price">5,95€</span>
         </li>
         <li>
             <span class="dish-name">Cerdo asado con picante</span>
             <span class="dish-icons">🌶️ 🥜</span>
-            <span class="dish-price">5,35€</span>
+            <span class="dish-price">5,55€</span>
         </li>
         <li>
             <span class="dish-name">Cerdo con salsa chili limón</span>
             <span class="dish-icons">🌶️</span>
-            <span class="dish-price">5,15€</span>
+            <span class="dish-price">5,45€</span>
         </li>
     </ul>
 
@@ -570,27 +570,27 @@ function loadMenuContent(category) {
         <li>
             <span class="dish-name">Pato con bambú y setas chinas</span>
             <span class="dish-icons">🌿 🦪</span>
-            <span class="dish-price">6,95€</span>
+            <span class="dish-price">7,25€</span>
         </li>
         <li>
             <span class="dish-name">Pato a la naranja</span>
             <span class="dish-icons"> </span>
-            <span class="dish-price">6,85€</span>
+            <span class="dish-price">7,15€</span>
         </li>
         <li>
             <span class="dish-name">Pato con piña</span>
             <span class="dish-icons"> </span>
-            <span class="dish-price">6,85€</span>
+            <span class="dish-price">7,15€</span>
         </li>
         <li>
             <span class="dish-name">Pato asado estilo pekín</span>
             <span class="dish-icons">🥚</span>
-            <span class="dish-price">8,80€</span>
+            <span class="dish-price">9,20€</span>
         </li>
         <li>
             <span class="dish-name">Pato a la plancha</span>
             <span class="dish-icons">⚪</span>
-            <span class="dish-price">7,25€</span>
+            <span class="dish-price">7,75€</span>
         </li>
     </ul>
 </div>
@@ -603,117 +603,117 @@ function loadMenuContent(category) {
         <li>
             <span class="dish-name">Gambas con bambú y setas chinas</span>
             <span class="dish-icons">🌿 🦪</span>
-            <span class="dish-price">6,00€</span>
+            <span class="dish-price">6,30€</span>
         </li>
         <li>
             <span class="dish-name">Gambas con salsa de ostras</span>
             <span class="dish-icons">🦪 🌿</span>
-            <span class="dish-price">5,90€</span>
+            <span class="dish-price">6,20€</span>
         </li>
         <li>
             <span class="dish-name">Gambas con salsa agridulce</span>
             <span class="dish-icons">🌾</span>
-            <span class="dish-price">5,75€</span>
+            <span class="dish-price">6,00€</span>
         </li>
         <li>
             <span class="dish-name">Gambas con kun bao</span>
             <span class="dish-icons">🌶️ 🥜 ⚪</span>
-            <span class="dish-price">5,80€</span>
+            <span class="dish-price">6,10€</span>
         </li>
         <li>
             <span class="dish-name">Gambas con verduras</span>
             <span class="dish-icons">🌿 🦪</span>
-            <span class="dish-price">5,55€</span>
+            <span class="dish-price">5,85€</span>
         </li>
         <li>
             <span class="dish-name">Gambas “Zhao Chai”</span>
             <span class="dish-icons">⚪ 🥬</span>
-            <span class="dish-price">7,75€</span>
+            <span class="dish-price">8,00€</span>
         </li>
         <li>
             <span class="dish-name">Gambas con salsa curry</span>
             <span class="dish-icons">⚪</span>
-            <span class="dish-price">5,80€</span>
+            <span class="dish-price">6,30€</span>
         </li>
         <li>
             <span class="dish-name">Gambas fritas</span>
             <span class="dish-icons">🌾 🥚 ⚪</span>
-            <span class="dish-price">6,00€</span>
+            <span class="dish-price">6,50€</span>
         </li>
         <li>
             <span class="dish-name">Gambas con anacardo</span>
             <span class="dish-icons">🥜 ⚪</span>
-            <span class="dish-price">6,75€</span>
+            <span class="dish-price">7,00€</span>
         </li>
         <li>
             <span class="dish-name">Gambas con curry rojo</span>
             <span class="dish-icons"></span>
-            <span class="dish-price">6,15€</span>
+            <span class="dish-price">6,45€</span>
         </li>
         <li>
             <span class="dish-name">Gambas chili limón</span>
             <span class="dish-icons">🌶️</span>
-            <span class="dish-price">6,15€</span>
+            <span class="dish-price">6,45€</span>
         </li>
         <li>
             <span class="dish-name">Gambas con pimienta negra</span>
             <span class="dish-icons">🦪</span>
-            <span class="dish-price">6,15€</span>
+            <span class="dish-price">6,45€</span>
         </li>
         <li>
             <span class="dish-name">Calamares fritos “a la romana”</span>
             <span class="dish-icons">🌾 🥚 🥛</span>
-            <span class="dish-price">5,50€</span>
+            <span class="dish-price">5,70€</span>
         </li>
         <li>
             <span class="dish-name">Calamares kun bao</span>
             <span class="dish-icons">🌶️ 🥜</span>
-            <span class="dish-price">6,75€</span>
+            <span class="dish-price">6,95€</span>
         </li>
         <li>
             <span class="dish-name">Calamares con salsa curry</span>
             <span class="dish-icons">⚪</span>
-            <span class="dish-price">6,75€</span>
+            <span class="dish-price">6,95€</span>
         </li>
         <li>
             <span class="dish-name">Calamares “Zhao Chai”</span>
             <span class="dish-icons">⚪ 🥬</span>
-            <span class="dish-price">7,05€</span>
+            <span class="dish-price">7,35€</span>
         </li>
         <li>
             <span class="dish-name">Pescado frito</span>
             <span class="dish-icons">🌾 🥚 🐟</span>
-            <span class="dish-price">4,45€</span>
+            <span class="dish-price">4,95€</span>
         </li>
         <li>
             <span class="dish-name">Pescado frito a la plancha</span>
             <span class="dish-icons">🌾 🥚 🐟</span>
-            <span class="dish-price">5,75€</span>
+            <span class="dish-price">5,95€</span>
         </li>
         <li>
             <span class="dish-name">Pescado agridulce</span>
             <span class="dish-icons">🌾 🥚 🐟</span>
-            <span class="dish-price">4,45€</span>
+            <span class="dish-price">4,75€</span>
         </li>
         <li>
             <span class="dish-name">Langostinos de la casa</span>
             <span class="dish-icons">🌾 🥚 🦀</span>
-            <span class="dish-price">7,40€</span>
+            <span class="dish-price">7,70€</span>
         </li>
         <li>
             <span class="dish-name">Langostinos a la plancha</span>
             <span class="dish-icons">🌾 🥚 🦀</span>
-            <span class="dish-price">8,25€</span>
+            <span class="dish-price">8,55€</span>
         </li>
         <li>
             <span class="dish-name">Cangrejo chino a la plancha</span>
             <span class="dish-icons">🌾 🥚 🦀</span>
-            <span class="dish-price">7,65€</span>
+            <span class="dish-price">7,95€</span>
         </li>
         <li>
             <span class="dish-name">Cangrejo chino con huevo</span>
             <span class="dish-icons">🌾 🥚 🦀</span>
-            <span class="dish-price">6,85€</span>
+            <span class="dish-price">7,15€</span>
         </li>
     </ul>
 </div>
@@ -726,127 +726,127 @@ function loadMenuContent(category) {
         <li>
             <span class="dish-name">Huevos revueltos con gambas</span>
             <span class="dish-icons">🥚 🦀</span>
-            <span class="dish-price">3,95€</span>
+            <span class="dish-price">4,25€</span>
         </li>
         <li>
             <span class="dish-name">Huevos revueltos con jamón york</span>
             <span class="dish-icons">🥚</span>
-            <span class="dish-price">3,30€</span>
+            <span class="dish-price">3,95€</span>
         </li>
         <li>
             <span class="dish-name">Tofu Ma-po con salsa de soja</span>
             <span class="dish-icons">🌿 🥬</span>
-            <span class="dish-price">6,15€</span>
+            <span class="dish-price">6,35€</span>
         </li>
         <li>
             <span class="dish-name">Berenjenas con picante</span>
             <span class="dish-icons">🌶️ 🌿</span>
-            <span class="dish-price">4,65€</span>
+            <span class="dish-price">4,95€</span>
         </li>
         <li>
             <span class="dish-name">Berenjenas fritas a la cazuela</span>
             <span class="dish-icons">🌿</span>
-            <span class="dish-price">5,65€</span>
+            <span class="dish-price">5,95€</span>
         </li>
         <li>
             <span class="dish-name">Verdura salteada</span>
             <span class="dish-icons">🌿</span>
-            <span class="dish-price">3,75€</span>
+            <span class="dish-price">4,25€</span>
         </li>
         <li>
             <span class="dish-name">Verdura china a la cazuela</span>
             <span class="dish-icons">🌿</span>
-            <span class="dish-price">5,75€</span>
+            <span class="dish-price">5,95€</span>
         </li>
         <li>
             <span class="dish-name">Verduras fritas con gambas</span>
             <span class="dish-icons">🌾 🥚 🦀</span>
-            <span class="dish-price">5,75€</span>
+            <span class="dish-price">5,95€</span>
         </li>
         <li>
             <span class="dish-name">Ancas de rana fritas</span>
             <span class="dish-icons">🌾 🥚</span>
-            <span class="dish-price">5,05€</span>
+            <span class="dish-price">5,35€</span>
         </li>
         <li>
             <span class="dish-name">Ancas de rana a la plancha</span>
             <span class="dish-icons">🌾 🥚 🌿 ⚪</span>
-            <span class="dish-price">5,90€</span>
+            <span class="dish-price">6,35€</span>
         </li>
         <li>
             <span class="dish-name">Bolas de carne fritas</span>
             <span class="dish-icons">🌾 🥚</span>
-            <span class="dish-price">5,50€</span>
+            <span class="dish-price">5,95€</span>
         </li>
         <li>
             <span class="dish-name">Bolas de carne fritas a la cazuela</span>
             <span class="dish-icons">🌾 🥚 🌿</span>
-            <span class="dish-price">5,80€</span>
+            <span class="dish-price">6,20€</span>
         </li>
         <li>
             <span class="dish-name">Familia feliz</span>
             <span class="dish-icons">🌿 🦀 🥬</span>
-            <span class="dish-price">5,80€</span>
+            <span class="dish-price">6,20€</span>
         </li>
         <li>
             <span class="dish-name">Ternera a la plancha</span>
             <span class="dish-icons">🌿 ⚪</span>
-            <span class="dish-price">5,45€</span>
+            <span class="dish-price">5,95€</span>
         </li>
         <li>
             <span class="dish-name">Pollo a la plancha</span>
             <span class="dish-icons">🌿 ⚪</span>
-            <span class="dish-price">5,45€</span>
+            <span class="dish-price">6,95€</span>
         </li>
         <li>
             <span class="dish-name">Gambas a la plancha</span>
             <span class="dish-icons">🌿 ⚪ 🦀</span>
-            <span class="dish-price">6,75€</span>
+            <span class="dish-price">7,50€</span>
         </li>
         <li>
             <span class="dish-name">Marisco a la plancha</span>
             <span class="dish-icons">🌿 ⚪ 🦀</span>
-            <span class="dish-price">7,15€</span>
+            <span class="dish-price">7,45€</span>
         </li>
         <li>
             <span class="dish-name">Ku Bac tres delicias</span>
             <span class="dish-icons">🌿 ⚪</span>
-            <span class="dish-price">5,65€</span>
+            <span class="dish-price">5,85€</span>
         </li>
         <li>
             <span class="dish-name">Ku Bac con gambas</span>
             <span class="dish-icons">🌿 ⚪ 🦀</span>
-            <span class="dish-price">5,95€</span>
+            <span class="dish-price">6,25€</span>
         </li>
         <li>
             <span class="dish-name">Pollo estilo Hong Kong</span>
             <span class="dish-icons">🥚</span>
-            <span class="dish-price">5,55€</span>
+            <span class="dish-price">5,85€</span>
         </li>
         <li>
             <span class="dish-name">Pollo frito con ajo especial</span>
             <span class="dish-icons">🌾 🥚 🌿 ⚪</span>
-            <span class="dish-price">5,05€</span>
+            <span class="dish-price">5,45€</span>
         </li>
         <li>
             <span class="dish-name">Hormiga sube al árbol</span>
             <span class="dish-icons">🌿 ⚪ 🦀</span>
-            <span class="dish-price">5,90€</span>
+            <span class="dish-price">6,20€</span>
         </li>
         <li>
             <span class="dish-name">Patatas fritas</span>
             <span class="dish-icons">🍟</span>
-            <span class="dish-price">2,25€</span>
+            <span class="dish-price">2,45€</span>
         </li>
         <li>
             <span class="dish-name">Gambas al ajillo</span>
             <span class="dish-icons">⚪ 🦀</span>
-            <span class="dish-price">6,45€</span>
+            <span class="dish-price">6,85€</span>
         </li>
         <li>
             <span class="dish-name">Ternera con mantequilla</span>
             <span class="dish-icons">⚪ 🥛</span>
-            <span class="dish-price">5,75€</span>
+            <span class="dish-price">6,45€</span>
         </li>
     </ul>
 </div>
