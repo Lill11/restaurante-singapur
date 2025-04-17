@@ -70,7 +70,7 @@ function loadMenuContent(category) {
                     </div>
                     <div class="menu-section">
                         <h2>Bebidas: <span>(a elegir)</span></h2>
-                        <p>Cerveza, copa de vino, agua o refrescos</p>
+                        <p>Cerveza, copa de vino, agua o Cocacola</p>
                     </div>
                     <div class="menu-section">
                         <h2>Postres: <span>(a elegir)</span></h2>
@@ -81,7 +81,7 @@ function loadMenuContent(category) {
 
             <div class="menu-grupos">
                 <h1 class="menu-title">MENÚS</h1>
-                <p class="menu-note"><strong>no incluye bebida</strong> / <strong>Incluye una bebida</strong></p>
+                <p class="menu-note"><strong>no incluye bebida ni postre</strong> / <strong>Incluye una bebida y postre</strong></p>
                 
                 <div class="group-menus">
                     <div class="group-menu">
@@ -796,7 +796,7 @@ function loadMenuContent(category) {
         <li>
             <span class="dish-name">Pollo a la plancha</span>
             <span class="dish-icons">🌿 ⚪</span>
-            <span class="dish-price">6,95€</span>
+            <span class="dish-price">5,95€</span>
         </li>
         <li>
             <span class="dish-name">Gambas a la plancha</span>
